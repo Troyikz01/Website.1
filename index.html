@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NBSC — Anonymous Student Feedback System</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="navbar__inner">
+    <div class="navbar__brand">
+      <div class="navbar__logo">N</div>
+      <div class="navbar__title">NBSC <span>Feedback</span></div>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#" class="active" data-page="home">Home</a></li>
+      <li><a href="#" data-page="about">About</a></li>
+      <li><a href="#" data-page="howitworks">How It Works</a></li>
+      <li><a href="#" data-page="feedback">Submit Feedback</a></li>
+      <li><a href="#" data-page="previous">Previous</a></li>
+      <li><a href="#" data-page="complaints">Complaints</a></li>
+      <li><a href="#" data-page="contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<!-- HOME -->
+<section class="page active" id="page-home">
+  <div class="hero">
+    <div class="hero__badge">🔒 100% Anonymous &amp; Secure</div>
+    <h1>Share Your Voice,<br><em>Shape Your School</em></h1>
+    <p>The Anonymous Student Feedback System at NBSC lets every student share honest, constructive feedback — no names, no judgement, just progress.</p>
+    <a href="#" class="hero__cta" data-page="feedback">Submit Feedback <span>→</span></a>
+  </div>
+  <div class="section" style="padding-top:48px;">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:18px;max-width:740px;margin:0 auto;">
+      <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:24px;text-align:center;box-shadow:var(--shadow);"><div style="font-family:'Playfair Display',serif;font-size:32px;font-weight:700;color:var(--teal);">247</div><div style="font-size:13px;color:var(--text-muted);margin-top:4px;">Feedback Submitted</div></div>
+      <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:24px;text-align:center;box-shadow:var(--shadow);"><div style="font-family:'Playfair Display',serif;font-size:32px;font-weight:700;color:var(--teal);">4.3</div><div style="font-size:13px;color:var(--text-muted);margin-top:4px;">Average Rating</div></div>
+      <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:24px;text-align:center;box-shadow:var(--shadow);"><div style="font-family:'Playfair Display',serif;font-size:32px;font-weight:700;color:var(--teal);">12</div><div style="font-size:13px;color:var(--text-muted);margin-top:4px;">Categories</div></div>
+      <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:24px;text-align:center;box-shadow:var(--shadow);"><div style="font-family:'Playfair Display',serif;font-size:32px;font-weight:700;color:var(--teal);">98%</div><div style="font-size:13px;color:var(--text-muted);margin-top:4px;">Anonymity Rate</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="page" id="page-about">
+  <div class="section">
+    <div class="section__header"><div class="section__tag">About Us</div><h2>Why NBSC Feedback Matters</h2><p>Understanding the purpose and values behind our system</p></div>
+    <div class="about-grid">
+      <div class="about-card"><div class="about-card__icon">🛡️</div><h3>Complete Anonymity</h3><p>No personal information is stored or linked to your feedback. You can speak freely without fear of identification.</p></div>
+      <div class="about-card"><div class="about-card__icon">🎯</div><h3>Constructive Impact</h3><p>Every submission is reviewed by the administration. Your feedback directly influences policy and campus improvements.</p></div>
+      <div class="about-card"><div class="about-card__icon">💬</div><h3>Inclusive Voice</h3><p>Whether you're a freshman or a senior, every student's perspective carries equal weight in our system.</p></div>
+      <div class="about-card"><div class="about-card__icon">📊</div><h3>Data-Driven Decisions</h3><p>Aggregated feedback is analyzed to identify trends, helping NBSC make informed and meaningful changes.</p></div>
+      <div class="about-card"><div class="about-card__icon">🔄</div><h3>Continuous Improvement</h3><p>The system is regularly updated based on student input — improving the experience for the entire campus community.</p></div>
+      <div class="about-card"><div class="about-card__icon">🤝</div><h3>Student–Admin Bridge</h3><p>We close the gap between student concerns and institutional decisions in a transparent and respectful way.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="page" id="page-howitworks">
+  <div class="section">
+    <div class="section__header"><div class="section__tag">Process</div><h2>How It Works</h2><p>Submitting feedback is quick, easy, and completely anonymous</p></div>
+    <div class="steps">
+      <div class="step"><div class="step__num">1</div><div class="step__content"><h3>Choose a Category</h3><p>Pick the topic your feedback relates to — academics, facilities, services, or campus life.</p></div></div>
+      <div class="step"><div class="step__num">2</div><div class="step__content"><h3>Write Your Feedback</h3><p>Share your thoughts in detail. Be as specific as you can to help the administration understand your experience.</p></div></div>
+      <div class="step"><div class="step__num">3</div><div class="step__content"><h3>Rate Your Experience</h3><p>Use our star rating system to indicate your overall satisfaction with the area you're commenting on.</p></div></div>
+      <div class="step"><div class="step__num">4</div><div class="step__content"><h3>Submit Anonymously</h3><p>Hit submit — no login or personal data required. Your identity stays completely protected.</p></div></div>
+      <div class="step"><div class="step__num">5</div><div class="step__content"><h3>Watch Changes Happen</h3><p>The NBSC administration reviews all submissions and acts on recurring feedback to improve campus life.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- SUBMIT FEEDBACK -->
+<section class="page" id="page-feedback">
+  <div class="section">
+    <div class="section__header"><div class="section__tag">Submit</div><h2>Share Your Feedback</h2><p>All responses are kept strictly anonymous</p></div>
+    <div class="form-wrapper">
+      <form id="feedbackForm">
+        <!-- ORIGINAL FIELDS -->
+        <div class="form-group">
+          <label>Category <span class="req">*</span></label>
+          <select id="fCategory" required>
+            <option value="" disabled selected>Select a category…</option>
+            <option value="Academics">📚 Academics</option>
+            <option value="Facilities">🏢 Facilities</option>
+            <option value="Services">⚙️ Services</option>
+            <option value="Campus Life">🌳 Campus Life</option>
+            <option value="Faculty">👨‍🏫 Faculty</option>
+            <option value="Administration">📋 Administration</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Rate Your Experience <span class="req">*</span></label>
+          <div class="star-row">
+            <input type="radio" name="rating" id="r5" value="5" required><label for="r5">★</label>
+            <input type="radio" name="rating" id="r4" value="4"><label for="r4">★</label>
+            <input type="radio" name="rating" id="r3" value="3"><label for="r3">★</label>
+            <input type="radio" name="rating" id="r2" value="2"><label for="r2">★</label>
+            <input type="radio" name="rating" id="r1" value="1"><label for="r1">★</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Your Feedback <span class="req">*</span></label>
+          <textarea id="fMessage" placeholder="Describe your experience, suggestion, or concern…" required minlength="20"></textarea>
+        </div>
+        <div class="form-group">
+          <label>Tags (optional)</label>
+          <div class="check-group">
+            <label class="check-item"><input type="checkbox" value="Urgent"> Urgent</label>
+            <label class="check-item"><input type="checkbox" value="Suggestion"> Suggestion</label>
+            <label class="check-item"><input type="checkbox" value="Complaint"> Complaint</label>
+            <label class="check-item"><input type="checkbox" value="Compliment"> Compliment</label>
+            <label class="check-item"><input type="checkbox" value="Follow-up"> Follow-up</label>
+          </div>
+        </div>
+
+        <!-- NEW FIELDS -->
+        <div class="form-group">
+          <label>Visibility <span class="req">*</span></label>
+          <div class="visibility-toggle">
+            <input type="radio" name="visibility" id="visPublic" value="public" checked>
+            <label for="visPublic">🌐 Public</label>
+            <input type="radio" name="visibility" id="visPrivate" value="private">
+            <label for="visPrivate">🔒 Private</label>
+          </div>
+          <p style="font-size:12px;color:var(--text-muted);margin-top:7px;" id="visHelp"><strong>Public</strong> — visible to all students (instructor name is hidden).</p>
+        </div>
+
+        <div class="form-group">
+          <label>Who is this about? <span class="req">*</span></label>
+          <div class="role-pills">
+            <div class="role-pill" data-role="Instructor" onclick="selectRole(this)">
+              <span class="role-pill__icon">👨‍🏫</span>
+              <div><div class="role-pill__label">Instructor</div><div class="role-pill__sub">A specific faculty member</div></div>
+            </div>
+            <div class="role-pill" data-role="Authorized Personnel" onclick="selectRole(this)">
+              <span class="role-pill__icon">🛡️</span>
+              <div><div class="role-pill__label">Authorized Personnel</div><div class="role-pill__sub">Admin / staff member</div></div>
+            </div>
+            <div class="role-pill" data-role="General" onclick="selectRole(this)">
+              <span class="role-pill__icon">🏫</span>
+              <div><div class="role-pill__label">General / School</div><div class="role-pill__sub">Not about one person</div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Attach Evidence (optional)</label>
+          <div class="upload-zone" id="uploadZone" onclick="document.getElementById('evidenceInput').click()">
+            <div class="upload-zone__icon">📎</div>
+            <div class="upload-zone__text">Drag &amp; drop files here, or click to <strong>browse</strong></div>
+            <div class="upload-zone__accept">📸 Photo &nbsp; 🎵 Audio &nbsp; 🎥 Video &nbsp;— max 50 MB each</div>
+            <input type="file" id="evidenceInput" multiple accept="image/*,audio/*,video/*">
+          </div>
+          <div class="upload-previews" id="uploadPreviews"></div>
+        </div>
+
+        <button type="submit" class="btn-submit">Submit Feedback →</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- PREVIOUS -->
+<section class="page" id="page-previous">
+  <div class="section">
+    <div class="section__header"><div class="section__tag">History</div><h2>Recent Feedback</h2><p>A snapshot of recent anonymous submissions (sample data)</p></div>
+    <div class="feedback-list" id="feedbackList"></div>
+  </div>
+</section>
+
+<!-- COMPLAINTS (NEW) -->
+<section class="page" id="page-complaints">
+  <div class="section">
+    <div class="section__header"><div class="section__tag">Complaints</div><h2>Instructor &amp; Personnel Complaints</h2><p>Encrypted reports — only the authorized person can access the full PDF</p></div>
+    <div class="pdf-panel" style="margin-bottom:28px;">
+      <div class="pdf-panel__lock">🔐</div>
+      <div class="pdf-panel__body">
+        <h3>Encrypted Complaint Report</h3>
+        <p>The full PDF with complaint details &amp; evidence is <strong style="color:var(--teal);">encrypted</strong>. Only the <strong style="color:var(--teal);">authorized person</strong> named in the complaint — after identity verification — can decrypt and read it.</p>
+        <button class="pdf-panel__btn" onclick="openVerifyModal()">📥 Download Encrypted PDF</button>
+      </div>
+    </div>
+    <div class="info-note">
+      <span class="info-note__icon">ℹ️</span>
+      <div><strong>How it works:</strong> When a complaint targets an Instructor or Authorized Personnel, an encrypted PDF is generated automatically. Only that specific verified NBSC member may download and read the full report. Everyone else sees only the public summary below.</div>
+    </div>
+    <div class="complaints-list" id="complaintsList"></div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="page" id="page-contact">
+  <div class="section">
+    <div class="section__header"><div class="section__tag">Contact</div><h2>Get in Touch</h2><p>Have a question about the feedback system? We're here to help.</p></div>
+    <div class="contact-grid">
+      <div class="contact-card"><div class="contact-card__icon">📍</div><h3>Location</h3><p>National Bukidnon State College<br>Malaybalay City, Bukidnon</p></div>
+      <div class="contact-card"><div class="contact-card__icon">📧</div><h3>Email</h3><p>feedback@nbsc.edu.ph<br>support@nbsc.edu.ph</p></div>
+      <div class="contact-card"><div class="contact-card__icon">📞</div><h3>Office Hours</h3><p>Mon – Fri<br>8:00 AM – 5:00 PM</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer><p>&copy; 2026 <strong>National Bukidnon State College</strong> — Anonymous Student Feedback System. All rights reserved.</p></footer>
+
+<!-- TOAST -->
+<div class="toast" id="toast"><div class="toast__icon">✓</div><div><strong id="toastTitle">Feedback Submitted!</strong><br><span style="font-weight:400;opacity:.8;" id="toastMsg">Thank you. Your response has been recorded anonymously.</span></div></div>
+
+<!-- VERIFY MODAL -->
+<div class="modal-overlay" id="verifyOverlay">
+  <div class="modal">
+    <button class="modal__close" onclick="closeVerifyModal()">✕</button>
+    <div class="modal__icon">🛡️</div>
+    <h3>Identity Verification</h3>
+    <p class="modal-desc">To download the encrypted PDF you must confirm you are the authorized person linked to this complaint <strong>and</strong> a verified NBSC member.</p>
+    <div class="verify-steps">
+      <div class="verify-step" id="vstep1"><div class="verify-step__num">1</div><div><div class="verify-step__text">Confirm NBSC Membership</div><div class="verify-step__sub">Are you a current student, instructor, or staff of NBSC?</div></div></div>
+      <div class="verify-step" id="vstep2"><div class="verify-step__num">2</div><div><div class="verify-step__text">Verify Your Role</div><div class="verify-step__sub">Confirm you are the Instructor or Authorized Personnel named.</div></div></div>
+      <div class="verify-step" id="vstep3"><div class="verify-step__num">3</div><div><div class="verify-step__text">Download Encrypted PDF</div><div class="verify-step__sub">Identity confirmed — encrypted PDF is now available.</div></div></div>
+    </div>
+    <div class="modal__actions">
+      <button class="modal__btn modal__btn--ghost" onclick="closeVerifyModal()">Cancel</button>
+      <button class="modal__btn modal__btn--primary" id="verifyNextBtn" onclick="verifyNext()">I am a member of NBSC →</button>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
